@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Zomato logo in the tab -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Zomato_logo.png/220px-Zomato_logo.png"
+    />
+    <!-- Font awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Poppins font by google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Importing styles.css -->
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Zomato Landing Page Clone</title>
+  </head>
+
+  <body>
+    <!-- Hero Section -->
+    <section class="hero__section">
+
+      <header>
+        <nav class="navbar">
+
+          <div class="list_bar">
+            <a href="#" class = "link">Get the App</a>
+            <a href="#" class="bar"> <i class="fa-solid fa-bars" style="color: #ffffff;"></i> </a>
+          </div>
+
+          <div class="nav_container">
+              <a href="#" class="link">Add Restaurant</a>
+              <a href="#" class="link">Log In</a>
+              <a href="#" class="link">Sign Up</a>
+          </div>
+
+        </nav>
+      </header>
+
+      <div class="hero_contents">
+        <img src="images/heroSectionLogo.png" alt="Zomato Logo">
+        <h1>Find the best restaurants, cafés and bars in India</h1>
+
+        <div class="hero__input_section">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="#ff7e8b" d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
+          <input type="text" placeholder="Mumbai" class="city_input">
+          <input type="text" class="search_bar" placeholder="Search for restaurant, cuisine or a dish">
+        </div>
+
+      </div> 
+    </section>
+
+
+    <section class="options__section">
+
+      <div class="item_card">
+        <img src="images/item1.png" alt="Delivery">
+        <div class="item_content">
+          <h3>Order Online</h3>
+          <p>Stay home and order food to doorstep</p>
+        </div>
+      </div>
+      
+      <div class="item_card">
+        <img src="images/item2.png" alt="Dine IN">
+        <div class="item_content">
+          <h3>Dining</h3>
+          <p>View the city's favorite dining venues</p>
+        </div>
+      </div>
+
+      <div class="item_card">
+        <img src="images/item3.png" alt="NightLife">
+        <div class="item_content">
+          <h3>Nightlife</h3>
+          <p>Explore city's top nightlife outlets</p>
+        </div>
+      </div> 
+
+    </section>
+    
+    <section class="collections__section">
+      <section class="extra_div">
+
+        <h2>Collections</h2>
+        <div class="collections_heading">
+          <h6>Explore curated lists of top restaurants, cafes, pubs, and bars in Mumbai, based on trends</h6>
+          <a href=""><span>All Collections in Mumbai</span></a>
+        </div>
+
+        <div class="collections_container">
+
+          <div class="card card1">
+              <div class="overlay"></div>
+              <div class="card_content">
+                <p>Sea View Dining Places</p>
+                <h6>17 Places</h6>
+              </div>
+          </div>
+
+          <div class="card card2">
+            <div class="overlay"></div>
+            <div class="card_content">
+              <p>Newly Opened Restaurants</p>
+              <h6>9 Places</h6>
+            </div>
+          </div>
+          
+          <div class="card card3">
+              <div class="overlay"></div>
+              <div class="card_content">
+                <p>Best Cafes in Mumbai</p>
+                <h6>38 Places</h6>
+              </div>
+          </div>
+
+          <div class="card card4">
+            <div class="overlay"></div>
+            <div class="card_content">
+              <p>Finest Microbreweries</p>
+              <h6>12 Places</h6>
+            </div>
+        </div>
+
+        </div>
+
+      </section>
+    </section>
+
+    <section class="get_the_app__section">
+      <div class="positioning_div">
+        <div class="banner_holder">
+          <img src="images/mobileBanner.png" alt="Get the Mobile App">
+        </div>
+          
+        <div class="app_container">
+          <h2>Get the Zomato App</h2>
+          <span>We will send you a link, open it on your phone to download the app</span>
+
+          <div class="radio_button">
+            <label for="contact-email"><input type="radio" name="group" id="contact-email">Email</label>
+            <label for="contact-phone"><input type="radio" name="group" id="contact-phone">Phone</label>
+          </div>
+          
+          <div class="email_input">
+            <input type="text" id="" placeholder="Email">
+            <button>Share App Link</button>
+          </div>
+          
+          <div class="download_container">
+            <h5>Download App From</h5>
+            <div class="downloader">
+              <a href="https://www.apple.com/in/app-store/" target="_blank"><img src="images/appleStore.png" alt="AppleStore"></a>
+              <a href="https://play.google.com/store/games?hl=en_IN&gl=US" target="_blank"><img src="images/playStore.png" alt="PlayStore"></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    
+    <footer class="last__section">
+      <div class="footer_container">
+        <img src="images/logo.png" alt="Zomato_logo">
+
+        <div class="button_container">
+          <button class="button1"><img src="https://flagcdn.com/w40/in.png" alt="Indian Flag" style="width: 17px;">India</button>
+          <button class="button2"><i class="fa fa-globe"></i>English</button>
+        </div>
+      </div>
+
+      <div class="navigation_container">
+
+        <div class="link_container">
+          <h5>ABOUT ZOMATO</h5>
+          <a href="#">Who we are</a>
+          <a href="#">Blogs</a>
+          <a href="#">Work with us</a>
+          <a href="#">Investor Relations</a>
+          <a href="#">Report Fraud</a>
+          <a href="#">Contact Us</a>
+        </div>
+
+        <div class="link_container">
+          <h5>ZOMAVERSE</h5>
+          <a href="#">Zomato</a>
+          <a href="#">Feeding</a>
+          <a href="#">Hyperpure</a>
+          <a href="#">Zomaland</a>
+        </div>
+
+        <div class="link_container">
+            <h5>FOR RESTURANTS</h5>
+            <a href="#">Partner With Us</a>
+            <a href="#">Apps for You</a>
+            <br>
+            <h5>ENTERPRICES</h5>
+            <a href="#">Work With Us</a>
+            <a href="#">Zomato for Work</a>
+        
+        </div>
+
+        <div class="link_container">
+          <h5>LEARN MORE</h5>
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Security</a>
+          <a href="#">SiteMap</a>
+        </div>
+
+        <div class="link_container">
+          <h5>SOCIAL LINKS</h5>
+            <div class="social_media_links">
+              <button class="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></button>
+              <button class="Insta"><i class="fa-brands fa-instagram"></i></button>
+              <button class="Twitter"><i class="fa-brands fa-twitter"></i></button>
+              <button class="UTube"><i class="fa-brands fa-youtube"></i></button>
+              <button class="Facebook"><i class="fa-brands fa-facebook"></i></button>
+            </div> 
+            <br>
+            <a href="https://www.apple.com/in/app-store/" target="_blank"><img src="images/appleStore.png" alt="AppleStore"></a>
+            <a href="https://play.google.com/store/games?hl=en_IN&gl=US" target="_blank"><img src="images/playStore.png" alt="PlayStore"></a>
+        </div>
+
+      </div>
+      <div class="disclaimer"></div>
+    </footer>
+  </body>
+</html>
