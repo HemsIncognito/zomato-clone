@@ -1,4 +1,4 @@
-# Zomato Landing Page Clone
+# Zomato Landing Page Clone | FSWD-1
 
 ## Topics Covered
 - **Building a Zomato Clone**: This project creates a replica of Zomato's landing page using fundamental web development.
