@@ -11,6 +11,8 @@
 - **Responsive Design Principles:** Ability to implement media queries for responsive layouts that adjust to various screen sizes.
 
 ## Additional Information
+### NOTE:
+- *THIS IS PURELY FOR MY LEARNING PURPOSE*
 *Project Status: **Deployed**!* You can access the live demo by following the link provided in the section below.
 
 #### Checkout the Live Preview:
